@@ -6,11 +6,13 @@
 
 ---
 
+* [Kenapa Flutter](kenapa-flutter.md)
 * [Tools](source-code.md)
 * [Referensi](referensi.md)
 
 ## Dart
 
+* [Kenapa Dart](dart/kenapa-dart.md)
 * [Tipe Data](dart/tipe-data.md)
 * [Function](dart/function.md)
 * [Arrow Function](dart/arrow-function.md)
@@ -22,6 +24,7 @@
 
 * [Persiapan Environment](flutter/persiapan-environment.md)
 * [Aplikasi Pertama](flutter/aplikasi-pertama.md)
+* [Widget](flutter/widget.md)
 * [Dasar Flutter](flutter/dasar-flutter/README.md)
   * [Scaffold & App Bar](flutter/dasar-flutter/scaffold-and-app-bar.md)
   * [Colour & Font](flutter/dasar-flutter/colour-and-font.md)

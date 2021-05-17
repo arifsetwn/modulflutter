@@ -2,7 +2,9 @@
 
 بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 
-FLutter merupakan xxx.   
+FLutter merupakan sebuah framework yang digunakan untuk membuat aplikasi iOS, Android, Desktop dan Web. Flutter menggunakan 1 bahasa pemrograman yaitu Dart. Dengan demikian kita cukup melakukan koding 1 kali namun dapat di deploy ke 4 devices sekaligus.
+
+   
 Modul ini dibuat sebagai pegangan bagi mahasiswa PTI UMS Surakarta dalam mengikuti mata kuliah Mobile Computing. Terdapat beberapa bab di dalam modul ini antara lain :
 
 * Dart
@@ -18,7 +20,7 @@ Modul ini dapat disebarluaskan dengan bebas dan gratis, Jika ingin berkontribusi
 
 **Source Code**
 
-Source code contoh-contoh kode bisa diunduh di xxx. Dianjurkan untuk tidak copy-paste dari source code dalam proses belajar, biasakan untuk selalu menulis kode agar terbiasa dengan bahasa pemrograman dart
+Source code contoh-contoh kode bisa diunduh di [https://github.com/arifsetwn/modulflutter/tree/main/kode](https://github.com/arifsetwn/modulflutter/tree/main/kode). Dianjurkan untuk tidak copy-paste dari source code dalam proses belajar, biasakan untuk selalu menulis kode agar terbiasa dengan bahasa pemrograman dart
 
 **Author**
 
