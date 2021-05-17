@@ -2,7 +2,7 @@
 
 بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 
-FLutter merupakan sebuah framework yang digunakan untuk membuat aplikasi iOS, Android, Desktop dan Web. Flutter menggunakan 1 bahasa pemrograman yaitu Dart. Dengan demikian kita cukup melakukan koding 1 kali namun dapat di deploy ke 4 devices sekaligus.
+Flutter merupakan sebuah framework yang digunakan untuk membuat aplikasi iOS, Android, Desktop dan Web. Flutter menggunakan 1 bahasa pemrograman yaitu Dart. Dengan demikian kita cukup melakukan koding 1 kali namun dapat di deploy ke 4 devices sekaligus.
 
    
 Modul ini dibuat sebagai pegangan bagi mahasiswa PTI UMS Surakarta dalam mengikuti mata kuliah Mobile Computing. Terdapat beberapa bab di dalam modul ini antara lain :
