@@ -1,13 +1,12 @@
 # Table of contents
 
-* [Cover](README.md)
+* [Tentang Modul](README.md)
 
-## Hello World
+## Persiapan <a id="hello-world"></a>
 
 ---
 
-* [Tentang Modul](tentang-modul.md)
-* [Source Code](source-code.md)
+* [Tools](source-code.md)
 * [Referensi](referensi.md)
 
 ## Dart
@@ -22,7 +21,6 @@
 ## Flutter
 
 * [Persiapan Environment](flutter/persiapan-environment.md)
-* [Github](flutter/github.md)
 * [Aplikasi Pertama](flutter/aplikasi-pertama.md)
 * [Dasar Flutter](flutter/dasar-flutter/README.md)
   * [Scaffold & App Bar](flutter/dasar-flutter/scaffold-and-app-bar.md)

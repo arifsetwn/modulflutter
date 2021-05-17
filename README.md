@@ -1,25 +1,26 @@
-# Cover
+# Tentang Modul
 
-## Getting Super Powers
+بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 
-Becoming a super hero is a fairly straight forward process:
+FLutter merupakan xxx.   
+Modul ini dibuat sebagai pegangan bagi mahasiswa PTI UMS Surakarta dalam mengikuti mata kuliah Mobile Computing. Terdapat beberapa bab di dalam modul ini antara lain :
 
-```
-$ give me super-powers
-```
+* Dart
+* Persiapan Flutter
+* Dasar Flutter
+* Studi Kasus
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+**Lisensi dan Status**
 
-Once you're strong enough, save the world:
+Modul ini ditulis menggunakan [Gitbook](https://github.com/GitbookIO/gitbook) sebuah perangkat lunak _opensource_ yang dikhususkan untuk menulis dokumen [menggunakan format markdown. Gitbook memiliki lisensi Apache License 2.0.](https://github.com/GitbookIO/gitbook/blob/master/LICENSE)
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+Modul ini dapat disebarluaskan dengan bebas dan gratis, Jika ingin berkontribusi silakan cek di [https://github.com/arifsetwn/modulflutter](https://github.com/arifsetwn/modulflutter)
 
+**Source Code**
 
+Source code contoh-contoh kode bisa diunduh di xxx. Dianjurkan untuk tidak copy-paste dari source code dalam proses belajar, biasakan untuk selalu menulis kode agar terbiasa dengan bahasa pemrograman dart
+
+**Author**
+
+Modul ini dibuat oleh [Arif Setiawan](http://my.ums.ac.id/profile/as112), Jika menemukan kesalahan atau kritik dan saran bisa menghubungi email arif.setiawan@ums.ac.id
 
