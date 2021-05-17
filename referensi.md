@@ -6,3 +6,7 @@ Beberapa referensi yang digunakan penulis dalam menulis modul ini antara lain:
 
 [FlutterDev](https://flutter.dev/docs)
 
+Flutter Codelabs
+
+Stackoverflow \(The god of every answers\)
+
