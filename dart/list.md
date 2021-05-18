@@ -71,7 +71,7 @@ void main(){
 }
 ```
 
-
+Pada baris kedua, saat dilakukan deklarasi List maka kita langsung menset tipe data list tersebut yaitu string dengan menggunakan syntax `List<String>`. Sehingga jika ada yang menambahkan data selain String maka program akan error
 
 
 
