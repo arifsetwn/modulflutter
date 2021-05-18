@@ -26,7 +26,7 @@ String calculateScore(num score) {
 }
 ```
 
-Conditional Expressions
+**Conditional Expressions**
 
 Fitur ini memungkinkan kita untuk menulis if else dalam 1 baris dengan format
 
