@@ -14,9 +14,11 @@
 
 * [Kenapa Dart](dart/kenapa-dart.md)
 * [Tipe Data](dart/tipe-data.md)
+* [Control Flow](dart/control-flow.md)
 * [Function](dart/function.md)
 * [Arrow Function](dart/arrow-function.md)
 * [List](dart/list.md)
+* [OOP](dart/oop.md)
 * [Class](dart/class.md)
 * [Inheritence](dart/inheritence.md)
 
