@@ -151,5 +151,31 @@ class User {
 }
 ```
 
+![](../.gitbook/assets/image%20%2811%29.png)
+
+Jika kalian mencoba menjalankan kode diatas kemudian muncul error seperti ini
+
 ![](../.gitbook/assets/image%20%289%29.png)
+
+Error ini dikarenakan sejak versi 2.12, Dart menghadirkan fitur Null Safety. Nilai null pada suatu variabel bisa menyebabkan suatu program mengalami kesalahan yang dikenal dengan _Null Pointer Exception \(NPE\)_.
+
+Untuk mengatasi error tersebut kita bisa menambahkan tanda tanya \(?\) pada inisiasi property `username` dan `age`
+
+```text
+class User {
+  String? username;
+  int? age;
+  
+  User(String username, int age){
+    this.username = username;
+    this.age = age;
+  }
+  
+  void login(){
+    print('user login');
+  }
+}
+```
+
+
 

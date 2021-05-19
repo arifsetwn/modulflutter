@@ -17,5 +17,9 @@ Jika masih bingung, bisa melihat video bahasa indonesia dibawah ini
 
 {% embed url="https://www.youtube.com/watch?v=C0p5570Ggng&t=1351s" caption="Credit to Upkoding" %}
 
+Kalian juga dapat belajar lebih lanjut tentang OOP dengan mengikuti kelas gratis dari dicoding berikut ini
+
+{% embed url="https://www.dicoding.com/academies/169" %}
+
 
 

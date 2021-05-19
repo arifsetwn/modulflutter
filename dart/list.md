@@ -23,7 +23,7 @@ void main(){
 }
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 **Menghapus item pada list**
 
@@ -40,7 +40,7 @@ void main(){
 }
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Pada contoh diatas kita sudah mempraktekan cara membuat list. Namun kita belum mendeklarasikan tipe data apa dari list tersebut, sehingga kita dapat menambahkan tipe data yang berbeda. Contoh dapat dilihat pada baris 6 kode berikut, kita dapat menambahkan item bertipe int.
 
