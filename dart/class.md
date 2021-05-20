@@ -102,7 +102,7 @@ class User {
 }
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 Untuk mengatasi masalah tersebut kita perlu memodifikasi `class User` dengan menghapus value dari `property username` dan `age` serta membuat sebuah constructor. Sebuah constructor merupakan fungsi spesial yang akan berjalan pertama kali ketika class dijalankan. Ingat, nama constructor harus sama dengan nama Class-nya.
 
@@ -151,11 +151,11 @@ class User {
 }
 ```
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Jika kalian mencoba menjalankan kode diatas kemudian muncul error seperti ini
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Error ini dikarenakan sejak versi 2.12, Dart menghadirkan fitur Null Safety. Nilai null pada suatu variabel bisa menyebabkan suatu program mengalami kesalahan yang dikenal dengan _Null Pointer Exception \(NPE\)_.
 
