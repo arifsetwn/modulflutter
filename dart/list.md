@@ -23,7 +23,7 @@ void main(){
 }
 ```
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 **Menghapus item pada list**
 
@@ -40,7 +40,7 @@ void main(){
 }
 ```
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Pada contoh diatas kita sudah mempraktekan cara membuat list. Namun kita belum mendeklarasikan tipe data apa dari list tersebut, sehingga kita dapat menambahkan tipe data yang berbeda. Contoh dapat dilihat pada baris 6 kode berikut, kita dapat menambahkan item bertipe int.
 
@@ -56,7 +56,7 @@ void main(){
 }
 ```
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 Hal seperti ini harus dihindari karena membuat list yang kita buat menjadi tidak konsisten, sehingga saat mendeklarasikan list kita juga perlu menset tipe data pada list tersebut. Perhatikan deklarasi list String pada baris ke 2
 
