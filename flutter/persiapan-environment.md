@@ -11,23 +11,23 @@ Ada beberapa langkah yang perlu dilakukan untuk menginstall dan menjalankan flut
 3. Extract hasil download ke dalam folder `C:\src\flutter`
 4. Klik Start menu kemudian ketik `env` dan tekan enter
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 5. Pada tab Advanced klik tombol **Environment Variables**
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 6. Klik pada **Path** kemudian klik **New**
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 7. Klik **New** pada bagian kanan atas, kemudian isikan lokasi path folder bin hasil extract flutter kita tadi. Pada tutorial ini maka lokasi pathnya adalah `C:/src/flutter/bin`
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 8. Klik OK 3x hingga semua dialog box tertutup. Untuk mengetes apakah instalasi sudah sesuai maka buka command prompt \(Tekan Win+R, kemudian tulis cmd\). Ketikkan perintah `flutter doctor` pada cmd. Jika muncul versi flutter maka instalasi sudah benar
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Jika muncul error seperti gambar dibawah ini, maka tidak usah khawatir. Kita lanjutkan dengan menginstall Android Studio
 
@@ -45,19 +45,19 @@ Jika muncul error seperti gambar dibawah ini, maka tidak usah khawatir. Kita lan
 
 11. Agar Android Studio dapat digunakan untuk membuat project flutter, maka kita perlu menginstall plugin flutter tersebut. Pada welcome screen Android Studio klik **Configure** kemudian pilih **Plugins**
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 11. Cari plugin bernama Flutter kemudian Install. Jika sudah berhasil maka pada welcome screen akan muncul pilihan **Start a new Flutter Project**
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 12. Jika Android Studio terlalu berat untuk dijalankan di perangkat kalian maka kita bisa menggunakan Text Editor yang lebih ringan seperti Visual Studio Code. Silakan install dari halaman [https://code.visualstudio.com/](https://code.visualstudio.com/). Jika sudah terinstall maka pilih menu **Extensions** dari sidebar sebelah kiri 
 
-![Cari menu extensions dengan logo seperti ini](../.gitbook/assets/image%20%288%29.png)
+![Cari menu extensions dengan logo seperti ini](../.gitbook/assets/image%20%2813%29.png)
 
 13. Cari dan install extension bernama Flutter
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 14. Untuk tutorial selanjutnya, penulis akan menggunakan Visual Studio Code dengan pertimbangan lebih ringan daripada Android Studio.
 
