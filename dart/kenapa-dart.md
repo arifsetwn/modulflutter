@@ -6,7 +6,7 @@ Hot Reload akan bekerja setiap kita melakukan perubahan pada kode. Setiap peruba
 
 Dart merupakan bahasa pemrograman statically typed language. Namun juga mendukung tipe data dynamic. Jadi sebuah variabel dapat dideklarasikan sebagai tipe dynamic dan dapat kita ubah tipe datanya. Namun awas, tipe data ini tidak disarankan untuk digunakan.
 
-Untuk belajar koding dart, kita dapat menggunakan [https://dartpad.dev](https://dartpad.dev/?) dan membaca dokumentasinya yang berada di [https://dart.dev/guides](https://dart.dev/guides)
+Untuk belajar koding dart, kalian tidak perlu menginstall aplikai kode editor. Kita dapat menggunakan [https://dartpad.dev](https://dartpad.dev/?) dan membaca dokumentasinya yang berada di [https://dart.dev/guides](https://dart.dev/guides)
 
 
 
