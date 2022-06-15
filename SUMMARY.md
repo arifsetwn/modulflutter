@@ -2,9 +2,9 @@
 
 * [Tentang Modul](README.md)
 
-## Persiapan <a id="hello-world"></a>
+## Persiapan <a href="#hello-world" id="hello-world"></a>
 
----
+***
 
 * [Kenapa Flutter](kenapa-flutter.md)
 * [Tools](source-code.md)
@@ -29,6 +29,7 @@
 * [Hot Reload](flutter/hot-reload.md)
 * [Widget](flutter/widget.md)
 * [Dasar Flutter](flutter/dasar-flutter/README.md)
+  * [Konsep Widget dan Layout](flutter/dasar-flutter/konsep-widget-dan-layout.md)
   * [Scaffold & App Bar](flutter/dasar-flutter/scaffold-and-app-bar.md)
   * [Colour & Font](flutter/dasar-flutter/colour-and-font.md)
   * [Stateless & Statefull Widget](flutter/dasar-flutter/stateless-widget-and-hot-reload.md)
@@ -38,10 +39,9 @@
 
 ## CodeLabs
 
-* [MDC 101 Flutter: Material Components \(MDC\) Basics](codelabs/untitled.md)
+* [MDC 101 Flutter: Material Components (MDC) Basics](codelabs/untitled.md)
 * [MDC 102 Flutter: Material Structure and Layout](codelabs/mdc-102-flutter-material-structure-and-layout.md)
 * [MDC 103 Flutter: Material Theming with Color, Shape, Elevation, and Type](codelabs/mdc-103-flutter-material-theming-with-color-shape-elevation-and-type.md)
 * [MDC 104 Flutter: Material Advanced Components](codelabs/mdc-104-flutter-material-advanced-components.md)
 * [Adding Google Maps to a Flutter app](codelabs/adding-google-maps-to-a-flutter-app.md)
 * [Multi-platform Firestore Flutter](codelabs/multi-platform-firestore-flutter.md)
-

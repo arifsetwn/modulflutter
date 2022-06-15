@@ -1,6 +1,6 @@
 # Kenapa Dart
 
-Dart merupakan bahasa pemrograman yang digunakan di dalam Flutter. Ada banyak alasan kenapa Google memilih bahasa pemrograman ini. Namun alasan utamanya karena Dart mendukung JIT \(just in time compilation\) dan AOT \(ahead of time compilation\). Dengan begitu maka Flutter dapat menggunakan fitur Hot Reload. 
+Dart merupakan bahasa pemrograman yang digunakan di dalam Flutter. Ada banyak alasan kenapa Google memilih bahasa pemrograman ini. Namun alasan utamanya karena Dart mendukung JIT (just in time compilation) dan AOT (ahead of time compilation). Dengan begitu maka Flutter dapat menggunakan fitur Hot Reload.&#x20;
 
 Hot Reload akan bekerja setiap kita melakukan perubahan pada kode. Setiap perubahan yang kita lakukan akan terupdate dan langsung terlihat pada emulator / handphone yang digunakan.
 
@@ -14,5 +14,4 @@ Referensi :
 
 {% embed url="https://dart.dev/guides" %}
 
-{% embed url="https://dartpad.dev/?null\_safety=true" %}
-
+{% embed url="https://dartpad.dev/?null_safety=true" %}
