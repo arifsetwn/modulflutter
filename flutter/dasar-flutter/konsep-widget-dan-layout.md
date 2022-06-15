@@ -10,7 +10,7 @@ Materi yang akan dipelajari :&#x20;
 
 Pada akhir kegiatan ini kita akan membuat aplikasi resep masakan seperti berikut :
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41) (1).png>)
 
 ### Membuat Project Baru
 
@@ -60,7 +60,7 @@ masih pada file main.dart ubah kode `Widget build` menjadi seperti berikut
 
 Hasil dari kode di atas adalah sebagai berikut&#x20;
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (42) (1).png>)
 
 ### Menyiapkan konten Aplikasi
 
@@ -139,15 +139,40 @@ class Recipe {
 
 
 
-Download folder asset
+Download folder asset dari link berikut&#x20;
 
 [https://github.com/raywenderlich/flta-materials/tree/editions/2.0/02-hello-flutter/assets](https://github.com/raywenderlich/flta-materials/tree/editions/2.0/02-hello-flutter/assets)
 
+kemudian pindahkan ke dalam folder projek kita, sehingga susunan folder menjadi seperti berikut
 
+![](<../../.gitbook/assets/image (42).png>)
 
-Displaying list
+Agar asset tersebut dapat dikenali oleh flutter maka kita perlu melakukan editing pada file pubspec.yaml. buka file tersebut kemudian hilangkan tanda pagar yang ada pada kata assets dan tambahkan nama folder asset.
 
+![](<../../.gitbook/assets/image (39).png>)
+
+```yaml
+assets:
+  - assets/
 ```
+
+\
+
+
+### Menampilkan List
+
+buka kembali file main.dart kemudian tambahkan import pada bagian atas kode
+
+
+
+```dart
+import 'recipe.dart';
+```
+
+\
+Kemudian modifikasi class \_MyHomePageState menjadi seperti berikut
+
+```dart
 class _MyHomePageState extends State<MyHomePage> {
   
   @override
@@ -161,22 +186,26 @@ class _MyHomePageState extends State<MyHomePage> {
           child: ListView.builder(
             itemCount: Recipe.samples.length,
             itemBuilder: (BuildContext context, int index){
-
+            // TODO: Update to return Recipe card
               return Text(Recipe.samples[index].label);
             },
             ),
         ),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ), 
     );
   }
 }
 ```
 
+tampilan aplikasi akan menjadi seperti berikut
 
+![](<../../.gitbook/assets/image (41).png>)
 
-making it look nice
+### Menambahkan Gambar
 
-```
+Pada class `_MyHomePageState` cari kata  `// TODO: Add buildRecipeCard() here` kemudian ganti dengan kode berikut
+
+```dart
   Widget buildRecipeCard(Recipe recipe) {
     return Card(
       elevation: 2.0,
@@ -207,13 +236,18 @@ making it look nice
   }
 ```
 
+kemudian ganti baris `return Text(Recipe.samples[index].label);` dengan kode berikut&#x20;
 
-
-Tap response
-
-ganti baris return buildRecipeCard(Recipe.samples\[index]); dengan kode berikut
-
+```dart
+// TODO: Add GestureDetector
+return buildRecipeCard(Recipe.samples[index]);
 ```
+
+### &#x20;Membuat aplikasi menerima input
+
+ganti baris `return buildRecipeCard(Recipe.samples[index]);` dengan kode berikut
+
+```dart
            return GestureDetector(
                 onTap: () {
                   Navigator.push(
@@ -230,9 +264,9 @@ ganti baris return buildRecipeCard(Recipe.samples\[index]); dengan kode berikut
               );
 ```
 
+Jika dijalankan dan kita memilih gambar makanan maka halaman akan berpindah ke halaman detail page. Tidak perlu khawatir jika tampilan masih hitam. Pada langkah berikutnya kita akan membuat halaman detail resep
 
-
-recipe detail dart
+Buat file baru dengan nama recipe\_detail.dart pada folder lib kemudian tulis kode berikut
 
 ```dart
 import 'package:flutter/material.dart';
@@ -294,20 +328,28 @@ class _RecipeDetailState extends State<RecipeDetail> {
 }
 ```
 
+Agar file tersebut dikenali oleh flutter, maka tambahkan import baru pada file main.dart
 
+```dart
+import 'recipe_detail.dart';
+```
 
-ganti return Text('Detail page'); dengan
+ganti juga kode  `return Text('Detail page');` dengan kode berikut
 
 ```dart
 return RecipeDetail(recipe: Recipe.samples[index]);
 ```
 
 \
+jalankan aplikasi maka halaman hitam tadi akan berubah menjadi seperti berikut
 
+![](<../../.gitbook/assets/image (40).png>)
 
-recipe dart
+### Menambahkan detail resep
 
-```
+Buka file recipe.dart kemudian ubah menjadi kode berikut
+
+```dart
 class Recipe {
   String label;
   String imageUrl;
@@ -400,9 +442,9 @@ class Ingredient {
 
 ```
 
-recipe detail dart
+pada file recipe\_detail.dart cari baris dengan text `// TODO: Add Expanded` kemudian ganti dengan kode berikut
 
-```
+```dart
         Expanded(
                 child: ListView.builder(
                   padding: const EdgeInsets.all(7.0),
@@ -416,7 +458,7 @@ recipe detail dart
               ),
 ```
 
-
+Jalankan aplikasi untuk melihat hasil kerja kita kali ini
 
 
 
