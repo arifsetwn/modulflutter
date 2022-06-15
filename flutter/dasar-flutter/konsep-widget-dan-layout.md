@@ -62,9 +62,11 @@ Hasil dari kode di atas adalah sebagai berikut&#x20;
 
 ![](<../../.gitbook/assets/image (42).png>)
 
-### Menyiapkan&#x20;
+### Menyiapkan konten Aplikasi
 
-```
+Ubah class  \_MyHomePageState menjadi seperti berikut
+
+```dart
 class _MyHomePageState extends State<MyHomePage> {
   
   @override
@@ -73,24 +75,31 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: SafeArea(
-      
+      body: SafeArea( 
+      //TO DO : Replace child: Container
         child: Container(),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ), 
     );
   }
+  // TODO: Add buildRecipeCard() heredart
 }
 ```
 
+Jika dijalankan maka tampilan aplikasi akan menjadi blank
 
 
-Adding Data Model
 
-```
+### Menyiapkan Data Model
+
+Buat file baru dengan nama recipe.dart pada folder lib, kemudian tulis kode berikut
+
+```dart
 class Recipe {
   String label;
   String imageUrl;
+   // TODO: Add servings and ingredients here
 
+   
   Recipe(
     this.label,
     this.imageUrl,
@@ -124,6 +133,7 @@ class Recipe {
 ];
 
 }
+// TODO: Add Ingredient() here
 
 ```
 
