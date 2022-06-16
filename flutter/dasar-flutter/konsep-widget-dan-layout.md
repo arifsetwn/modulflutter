@@ -141,7 +141,7 @@ class Recipe {
 
 Download folder asset dari link berikut&#x20;
 
-[https://github.com/raywenderlich/flta-materials/tree/editions/2.0/02-hello-flutter/assets](https://github.com/raywenderlich/flta-materials/tree/editions/2.0/02-hello-flutter/assets)
+[https://drive.google.com/drive/folders/1UhNdNM9Ge\_2nqM2pMeztHpEWF9\_\_0eB6?usp=sharing](https://drive.google.com/drive/folders/1UhNdNM9Ge\_2nqM2pMeztHpEWF9\_\_0eB6?usp=sharing)
 
 kemudian pindahkan ke dalam folder projek kita, sehingga susunan folder menjadi seperti berikut
 
