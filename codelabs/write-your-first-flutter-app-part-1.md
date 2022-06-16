@@ -82,7 +82,7 @@ Maka setiap kita menjalankan aplikasi akan tertampil sebuah kata bahasa inggris 
 
 taruh cursor pada akhir baris file main.dart, ketik enter 2 kali untuk membuat baris baru. kemudian ketik kata stful kemudian enter untuk membuat class statefull widget. Tulis RandomWords sebagai nama class. maka kode kita akan menjadi seperti ini
 
-```
+```dart
 class RandomWords extends StatefulWidget {
   const RandomWords({ Key? key }) : super(key: key);
 
@@ -102,7 +102,7 @@ class _RandomWordsState extends State<RandomWords> {
 
 pada class \_RandomWordsState ubah return Container() menjadi kode berikut
 
-```
+```dart
 class _RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
@@ -136,7 +136,7 @@ child: RandomWords(),
 
 Sehingga class MyApp menjadi seperti berikut
 
-```
+```dart
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -162,12 +162,12 @@ Membuat Infinite Scrooling
 
 ubah kode pada class \_RandomWordsState menjadi seperti berikut
 
-```
+```dart
 class _RandomWordsState extends State<RandomWords> {
   final _suggestion = <WordPair>[];
   final _biggerFont = const TextStyle(fontSize: 18);
 
-  @override
+  @overriddarte
   Widget build(BuildContext context) {
     return ListView.builder(
       padding: const EdgeInsets.all(16.0),
