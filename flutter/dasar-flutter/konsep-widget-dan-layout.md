@@ -343,7 +343,7 @@ return RecipeDetail(recipe: Recipe.samples[index]);
 \
 jalankan aplikasi maka halaman hitam tadi akan berubah menjadi seperti berikut
 
-![](<../../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (40) (1).png>)
 
 ### Menambahkan detail resep
 
