@@ -167,7 +167,7 @@ class _RandomWordsState extends State<RandomWords> {
   final _suggestion = <WordPair>[];
   final _biggerFont = const TextStyle(fontSize: 18);
 
-  @overriddarte
+  @override
   Widget build(BuildContext context) {
     return ListView.builder(
       padding: const EdgeInsets.all(16.0),
