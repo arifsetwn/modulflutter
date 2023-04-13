@@ -14,7 +14,7 @@ Dart merupakan bahasa pemrograman statically typed language. Namun juga mendukun
 
 Dart merupakan bahasa modern dan berfitur lengkap. Dart juga memiliki banyak kemiripan dengan bahasa lain yang sudah banyak dikenal seperti Java, C#, Javascript, Swift, dan Kotlin. Salah satu rancangan utama dari Dart adalah supaya bahasa ini familiar bagi _developer_ Javascript dan Java/C#. Artinya,  yang telah familiar dengan kedua bahasa tersebut dapat memulai belajar bahasa Dart dengan lebih mudah.&#x20;
 
-Untuk belajar koding dart, kalian tidak perlu menginstall aplikai kode editor. Kita dapat menggunakan [https://dartpad.dev](https://dartpad.dev/?) dan membaca dokumentasinya yang berada di [https://dart.dev/guides](https://dart.dev/guides)
+
 
 
 

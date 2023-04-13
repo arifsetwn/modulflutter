@@ -13,6 +13,9 @@
 ## Dart
 
 * [Kenapa Dart](dart/kenapa-dart.md)
+* [Platform Dart](dart/platform-dart.md)
+* [Struktur Program Dart](dart/struktur-program-dart.md)
+* [Program Pertama Dart](dart/program-pertama-dart.md)
 * [Tipe Data](dart/tipe-data.md)
 * [Control Flow](dart/control-flow.md)
 * [Function](dart/function.md)

@@ -12,11 +12,11 @@ Flutter Codelabs
 
 Stackoverflow (The god of every questions)
 
-****
+
 
 **Bahasa Indonesia**
 
-****[Erico Darmawan Handoyo](https://www.youtube.com/user/kh3w4nx1ng)
+[Erico Darmawan Handoyo](https://www.youtube.com/user/kh3w4nx1ng)
 
 [Cybereye Community](https://www.youtube.com/channel/UCZbsWQGnHQQxLFFyLsuEF\_g/videos)
 
