@@ -22,8 +22,22 @@ Setelah proyek berhasil dibuat, kita dapat menulis kode program Dart pada file `
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-14 at 05.10.57.png" alt=""><figcaption></figcaption></figure>
 
+Hapus semua kode yang ada kemudian ganti dengan kode dibawah
+
+```
+void main() {
+  print('Hello, World!');
+}
+
+```
+
+Penjelasan kode program di atas:
+
+* Fungsi `main()` adalah titik masuk utama dalam program Dart.
+* Pada blok kode di dalam fungsi `main()`, terdapat pernyataan `print()` yang digunakan untuk menampilkan teks "Hello, World!" pada konsol.
+
 5. Jalankan program
 
 Untuk menjalankan program Dart, kita dapat menekan tombol `F5` pada Windows atau dapat menggunakan perintah "Dart: Run Without Debugging" pada Command Palette.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-14 at 05.12.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-14 at 05.21.44.png" alt=""><figcaption></figcaption></figure>

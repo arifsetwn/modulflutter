@@ -23,7 +23,8 @@
 * [List](dart/list.md)
 * [OOP](dart/oop.md)
 * [Class](dart/class.md)
-* [Inheritence](dart/inheritence.md)
+* [Inheritance](dart/inheritence.md)
+* [Null Safety](dart/null-safety.md)
 
 ## Flutter
 
