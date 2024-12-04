@@ -71,9 +71,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
 ```
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.52.28.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### **2. Widget Stack**
 
@@ -119,7 +123,9 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.53.05.png" alt=""><figcaption></figcaption></figure>
+
+
 
 #### **3. Widget GridView**
 
@@ -162,9 +168,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 ```
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.53.52.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### **Kombinasi Layout**
 
@@ -233,5 +242,9 @@ class MyApp extends StatelessWidget {
 
 * Menggabungkan **Row**, **Column**, dan **GridView**.
 * Area atas adalah header, area tengah grid, dan area bawah footer.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.54.52.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***

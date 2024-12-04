@@ -78,6 +78,10 @@ class MyApp extends StatelessWidget {
 * **width & height**: Menentukan dimensi Container menjadi 200x100.
 * **child**: Berisi teks di tengah Container.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.04.24.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ***
 
 #### **2. Menambahkan Margin dan Padding**
@@ -118,6 +122,10 @@ class MyApp extends StatelessWidget {
 
 * **margin**: Menambahkan jarak di luar Container sebesar 20 piksel.
 * **padding**: Menambahkan jarak di dalam Container sebesar 10 piksel.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.05.15.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -180,6 +188,10 @@ class MyApp extends StatelessWidget {
 * **border**: Menambahkan border hitam dengan lebar 3 piksel.
 * **borderRadius**: Membulatkan sudut border dengan radius 15 piksel.
 * **boxShadow**: Memberikan efek bayangan pada Container.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.05.49.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ***
 
@@ -245,5 +257,7 @@ class MyApp extends StatelessWidget {
 * Membuat **Container besar** sebagai pembungkus.
 * **Container kecil** di dalamnya menggunakan dekorasi lebih detail.
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.07.28.png" alt=""><figcaption></figcaption></figure>
+
+
 

@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
 
 #### **1. Pengertian Assets**
 
-Assets adalah file non-kode yang dikemas bersama aplikasi. Ini mencakup gambar, font, ikon, dan file lainnya. Dalam Flutter, assets digunakan untuk menambahkan elemen statis ke aplikasi.
+Assets adalah file non-kode yang dikemas bersama aplikasi. Assets mencakup gambar, font, ikon, dan file lainnya. Dalam Flutter, assets digunakan untuk menambahkan elemen statis ke aplikasi.
 
 #### **2. Menambahkan Assets ke Proyek**
 
@@ -100,7 +100,7 @@ Assets adalah file non-kode yang dikemas bersama aplikasi. Ini mencakup gambar, 
    *   Tambahkan daftar asset di file `pubspec.yaml`:
 
        ```yaml
-       yamlCopy codeflutter:
+       flutter:
          assets:
            - assets/images/sample.png
        ```

@@ -77,6 +77,10 @@ class MyApp extends StatelessWidget {
 * **TextButton**: Button sederhana tanpa bayangan.
 * **OutlinedButton**: Button dengan garis tepi.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.00.27.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ***
 
 ### **Icons**
@@ -158,6 +162,10 @@ class MyApp extends StatelessWidget {
 * **Icons.star**: Ikon bintang dengan warna kuning.
 * **Icons.home**: Ikon rumah dengan warna biru.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.01.06.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ***
 
 ### **Kombinasi Button dan Icons**
@@ -221,3 +229,6 @@ class MyApp extends StatelessWidget {
 * **ElevatedButton.icon**: Button dengan ikon dan teks.
 * **IconButton**: Button khusus ikon.
 * **FloatingActionButton**: Button melayang dengan ikon.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 14.03.05.png" alt=""><figcaption></figcaption></figure>
+

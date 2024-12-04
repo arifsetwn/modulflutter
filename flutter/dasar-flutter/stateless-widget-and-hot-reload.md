@@ -44,7 +44,9 @@ class MyStatelessApp extends StatelessWidget {
 * **StatelessWidget**: Menggunakan class `StatelessWidget`.
 * **build()**: Method ini dipanggil sekali untuk menghasilkan struktur UI.
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.56.03.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### **Stateful Widget**
 
@@ -124,3 +126,6 @@ class _MyStatefulAppState extends State<MyStatefulApp> {
 * **StatefulWidget Class**: `MyStatefulApp` adalah kerangka widget.
 * **State Class**: `_MyStatefulAppState` menyimpan data `counter`.
 * **setState()**: Memperbarui nilai `counter` dan merender ulang UI.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.56.53.png" alt=""><figcaption></figcaption></figure>
+

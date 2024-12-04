@@ -27,7 +27,7 @@
 * [Hot Reload](flutter/hot-reload.md)
 * [Widget](flutter/widget.md)
 * [Dasar Flutter](flutter/dasar-flutter/README.md)
-  * [Widget Dasar](flutter/dasar-flutter/widget-dasar.md)
+  * [Text Widget](flutter/dasar-flutter/text-widget.md)
   * [Layout](flutter/dasar-flutter/layout.md)
   * [Stateless & Statefull Widget](flutter/dasar-flutter/stateless-widget-and-hot-reload.md)
   * [Scaffold & App Bar](flutter/dasar-flutter/scaffold-and-app-bar.md)

@@ -4,7 +4,7 @@
 
 #### **1. Pengertian Scaffold**
 
-Scaffold adalah widget dasar dalam Flutter yang menyediakan struktur dan tata letak untuk aplikasi. Scaffold menawarkan kerangka kerja standar untuk membuat antarmuka pengguna, seperti bar atas (AppBar), area konten (Body), tombol mengambang (FloatingActionButton), dan lainnya.
+Scaffold adalah widget dasar dalam Flutter yang menyediakan struktur dan tata letak untuk aplikasi. Scaffold menawarkan kerangka kerja untuk membuat antarmuka , seperti bar atas (AppBar), area konten (Body), tombol mengambang (FloatingActionButton), dan lainnya.
 
 #### **2. Komponen Utama Scaffold**
 
@@ -58,7 +58,9 @@ class MyApp extends StatelessWidget {
 * **Body**: Menampilkan teks di tengah layar.
 * **FloatingActionButton**: Tombol mengambang untuk tindakan utama.
 
-***
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.57.55.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### **AppBar**
 
@@ -126,3 +128,6 @@ class MyApp extends StatelessWidget {
 * **Leading**: Ikon menu di sisi kiri.
 * **Actions**: Dua ikon di sisi kanan, masing-masing dengan fungsi `onPressed`.
 * **BackgroundColor**: Warna latar belakang AppBar diubah menjadi biru.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-04 at 13.58.39.png" alt=""><figcaption></figcaption></figure>
+
