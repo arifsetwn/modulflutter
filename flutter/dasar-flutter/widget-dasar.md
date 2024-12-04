@@ -46,6 +46,8 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
 ### **2. Row Widget**
 
 #### **1. Pengertian Row Widget**
@@ -86,7 +88,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-***
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ### **3. Column Widget**
 
@@ -100,10 +102,9 @@ class MyApp extends StatelessWidget {
 * `crossAxisAlignment`: Mengatur posisi widget di sumbu silang.
 * `children`: Daftar widget yang ditampilkan dalam kolom.
 
-#### **3. Contoh Implementasi Column Widget**
+#### **3. Contoh Implementasi Column Widget**import 'package:flutter/material.dart';
 
 ```dart
-import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -114,25 +115,28 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Icon(Icons.star, color: Colors.red, size: 50),
-            Text(
-              'Column Widget',
-              style: TextStyle(fontSize: 24),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Button in Column');
-              },
-              child: Text('Press Me'),
-            ),
-          ],
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Icon(Icons.star, color: Colors.red, size: 50),
+              Text(
+                'Column Widget',
+                style: TextStyle(fontSize: 24),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  print('Button in Column');
+                },
+                child: Text('Press Me'),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 ```
+
